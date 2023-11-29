@@ -34,6 +34,10 @@ b {
     font-family: 'PoppinsMedium', 'Rubik', sans-serif;
 }
 
+.hidden {
+    display: none!important;
+}
+
 .bg-top {
     position: absolute;
     top: 0px;
@@ -239,5 +243,39 @@ section.categoria {
     position: relative;
     padding-top: 2px;
     margin-right: 2px;
+}
 
+.menu-bottom.disabled {
+    justify-content: center;
+    padding: 15px;
+    font-size: 18px;
+
+}
+
+/* Detalhes do produto */
+
+.bg-top.details {
+    height: 410px;
+}
+
+.container-voltar {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none!important;
+    font-size: 18px;
+    color: var(--color-black)!important;
+}
+
+.container-imagem-produto {
+    height: 260px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
