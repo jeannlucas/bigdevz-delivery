@@ -18,23 +18,25 @@
     <header class="width-fix mt-3">
       <div class="card">
         <div class="d-flex">
-
           <a href="./index.html" class="container-voltar">
             <i class="fas fa-arrow-left"></i>
           </a>
-          <div class="infos text-center"> 
+          <div class="infos text-center">
             <h1 class="mb-0"><b>Detalhes do Produto</b></h1>
           </div>
-          
         </div>
       </div>
     </header>
 
     <!--PRODUCTS-->
     <section class="imagem width-fix mt-4">
-      <div class="container-imagem-produto" 
-        style="background-image: url('./img/calabresa.jpg'); background-size: cover;">
-      </div>
+      <div
+        class="container-imagem-produto"
+        style="
+          background-image: url('./img/calabresa.jpg');
+          background-size: cover;
+        "
+      ></div>
 
       <div class="card mb-2">
         <div class="d-flex">
@@ -46,23 +48,20 @@
             </p>
             <p class="price"><b>R$ 39,90</b></p>
           </div>
-
         </div>
       </div>
     </section>
 
     <!--OPTIONAL-->
     <section class="opcionais width-fix mt-5 pb-5">
-
       <!--BORDA-->
       <div class="container-group mb-5">
         <span class="badge">Obrigatório</span>
-        
+
         <p class="title-categoria mb-0"><b>Deseja borda?</b></p>
         <span class="sub-title-categoria"> Escolha 1 opção:</span>
 
         <div class="card card-opcionais mt-2">
-
           <div class="infos-produto-opcional">
             <p class="name mb-0"><b>Catupiry</b></p>
             <p class="price mb-0"><b>+ R$ 8,90</b></p>
@@ -70,14 +69,13 @@
 
           <div class="checks">
             <label class="container-check">
-              <input type="checkbox"/>
+              <input type="checkbox" />
               <span class="checkmark"></span>
             </label>
           </div>
         </div>
 
         <div class="card card-opcionais mt-2">
-
           <div class="infos-produto-opcional">
             <p class="name mb-0"><b>Cheddar</b></p>
             <p class="price mb-0"><b>+ R$ 3,90</b></p>
@@ -85,7 +83,7 @@
 
           <div class="checks">
             <label class="container-check">
-              <input type="checkbox"/>
+              <input type="checkbox" />
               <span class="checkmark"></span>
             </label>
           </div>
@@ -94,12 +92,10 @@
 
       <!--ADICIONAL-->
       <div class="container-group mb-5">
-        
         <p class="title-categoria mb-0"><b>Adicionais</b></p>
         <span class="sub-title-categoria"> Escolha opções:</span>
 
         <div class="card card-opcionais mt-2">
-
           <div class="infos-produto-opcional">
             <p class="name mb-0"><b>Bacon</b></p>
             <p class="price mb-0"><b>+ R$ 6,90</b></p>
@@ -107,15 +103,13 @@
 
           <div class="checks">
             <label class="container-check">
-              <input type="checkbox"/>
+              <input type="checkbox" />
               <span class="checkmark"></span>
             </label>
           </div>
-
         </div>
 
         <div class="card card-opcionais mt-2">
-
           <div class="infos-produto-opcional">
             <p class="name mb-0"><b>Cebola</b></p>
             <p class="price mb-0"><b>+ R$ 2,90</b></p>
@@ -123,41 +117,36 @@
 
           <div class="checks">
             <label class="container-check">
-              <input type="checkbox"/>
+              <input type="checkbox" />
               <span class="checkmark"></span>
             </label>
           </div>
-
         </div>
-
       </div>
 
       <!--OBSERVAÇÕES-->
       <div class="container-group mb-5">
-        
         <p class="title-categoria mb-0"><b>Observações</b></p>
-        <span class="sub-title-categoria">Informe alguma observação abaixo:</span>
+        <span class="sub-title-categoria"
+          >Informe alguma observação abaixo:</span
+        >
 
         <textarea class="form-control mt-2" rows="6"></textarea>
-
-
       </div>
     </section>
 
     <!--MENU BOTTOM-->
-    <section class="menu-bottom" id=" menu-bottom">
-      <a class="menu-bottom-item active">
-        <i class="fas fa-book-open"></i>&nbsp; Cardápio</a>       
-      </a>
-
-      <a class="menu-bottom-item">
-        <i class="fas fa-utensils"></i>&nbsp; Pedido</a>       
-      </a>
-
-      <a class="menu-bottom-item">
-        <span class="badge-total-carrinho">2</span>
-        <i class="fas fa-shopping-cart"></i>&nbsp; Carrinho</a>       
-      </a>
+    <section class="menu-bottom details" id=" menu-bottom">
+      <div class="add-carrinho">
+        <span class="btn-menos">
+          <i class="fas fa-minus"></i>
+        </span>
+        <span class="add-numero-itens"> 2 </span>
+        <span class="btn-mais">
+          <i class="fas fa-plus"></i>
+        </span>
+      </div>
+      <a class="btn btn-yellow btn-sm"> Adicionar <span>R$ 49,90</span> </a>
     </section>
 
     <!--STORE CLOSED-->
@@ -165,10 +154,8 @@
       <p class="mb-0"><b>Loja fechada</b></p>
     </section>
 
-    
-
     <!--JavaScript-->
     <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="./js/cardapio.js"></script>
+    <script type="text/javascript" src="./js/item.js"></script>
   </body>
 </html>
